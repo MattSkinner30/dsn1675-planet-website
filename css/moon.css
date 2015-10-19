@@ -21,3 +21,56 @@ html {
 	width:100%;
 	display: block;
 }
+
+body {
+	margin: 0;
+}
+
+header {
+	background-color: #ccc;
+}
+
+h1 {
+	font-size: 3rem;
+}
+
+h2 {
+
+}
+
+h3 {
+	text-align: center;
+}
+
+ul {
+	list-style-type: none;
+	padding-left: 0;
+}
+
+a {
+	color: #3271ce;
+	text-decoration: none;
+}
+
+
+@media only screen and (min-width: 25em) {
+	li {
+	display:inline-block;
+	}
+
+	ul {
+		text-align: center;
+	}
+
+}
+
+@media only screen and (min-width: 38em) {
+	h3 {
+		text-align: left;
+	}
+}
+@media only screen and (min-width: 60em) {
+	ul {
+		text-align: left;
+	}
+}

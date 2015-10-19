@@ -21,3 +21,52 @@ html {
 	width:100%;
 	display: block;
 }
+
+body {
+	margin: 0;
+}
+
+header {
+	background-color: #ccc;
+}
+
+h1 {
+	font-size: 2rem;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	color: #3271ce;
+
+}
+
+ul {
+	list-style-type: none;
+	padding-left: 0;
+}
+
+@media only screen and (min-width: 25em) {
+	ul {
+		text-align: center;
+	}
+
+	li {
+		display: inline-block;
+	}
+}
+@media only screen and (min-width: 38em) {
+	h1 {
+		text-align: left;
+	}
+
+	ul {
+		margin: 2em 0 0 0;
+	}
+}
+
+@media only screen and (min-width: 60em) {
+	ul {
+		text-align: left;
+	}
+}
