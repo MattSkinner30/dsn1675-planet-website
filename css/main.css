@@ -83,6 +83,10 @@ ul {
 	background-color: #e2e2e2;
 }
 
+.dltext {
+	letter-spacing: normal;
+}
+/*I added this here because the -0.31em letter spacing on .grid was squishing all the words in the dl's together*/
 
 
 footer {
@@ -113,20 +117,8 @@ footer {
 	ul {
 		text-align: left;
 	}
+
+	.moonmain .img-flex {
+	padding: 0 1.5rem 1.5rem 0;
 }
-
-
-	/*
-	main img {
-		padding-bottom: 20em;
-	}
-	.moondl {
-	position: relative;
 }
-
-	.moondl dl {
-		position: absolute;
-		top: 14em;
-		right: 20em;
-	}
-	*/
