@@ -4,15 +4,11 @@ Light grey: #e2e2e2;
 Less Light grey: #cbcbcb;
 Blue: #1579db;
 */
-
-
-
 @-moz-viewport {width: device-width; scale: 1;}
 @-ms-viewport {width: device-width; scale: 1;}
 @-o-viewport {width: device-width; scale: 1;}
 @-webkit-viewport {width: device-width; scale: 1;}
 @viewport {width: device-width; scale: 1;}
-
 html {
 	box-sizing: border-box;
 	text-size-adjust: 100%;
