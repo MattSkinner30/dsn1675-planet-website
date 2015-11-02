@@ -106,14 +106,15 @@ footer {
 	h1 {
 		text-align: left;
 	}
+	ul {
+		text-align: left;
+	}
 }
 
 @media only screen and (min-width: 60em) {
 	ul {
-		text-align: left;
+		text-align: none;
 	}
 
-	.moonmain .img-flex {
-	padding: 0 1.5rem 1.5rem 0;
-}
+	
 }
